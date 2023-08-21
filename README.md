@@ -20,3 +20,10 @@ To get tests coverage follow further steps:
 
 6. now open the html version of the report using a browser to view test reults
    WARNING! Don't move the html file out of the folder as it uses app.js script in the ./assets subdirectory to show the html file. Otherwise the page will be blank.
+
+The repository only contains the source code that is under testing, `package.json` skeleton
+and LICENSE file.
+
+Source code folder contains a separate license file that must **NOT** be removed under any circumstances!
+Removing this license file directly violates terms and conditions of the software under testing.
+Individuals who remove or modify the license file will also carry the consequences.
