@@ -18,4 +18,5 @@ To get tests coverage follow further steps:
 5. after running the tests you can run the command `npm run coverage`, which will generate test reports using mochawesome in html and json formats.
    You can find these reports in the newly created directory mochawesome-report
 
-6. now open the html version of the report using a browser.
+6. now open the html version of the report using a browser to view test reults
+   WARNING! Don't move the html file out of the folder as it uses app.js script in the ./assets subdirectory to show the html file. Otherwise the page will be blank.
