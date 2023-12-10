@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "mocha",
+    "test": "mocha \"test/**/*.js\"",
     "report": "mocha --reporter mochawesome",
     "scenarios": "mocha \"./test/scenarios/*.js\""
   },
