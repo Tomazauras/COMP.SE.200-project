@@ -1,7 +1,6 @@
 # COMP.SE.200-project
 
-.. image:: https://coveralls.io/repos/github/Tomazauras/COMP.SE.200-project/badge.svg?branch=main
-:target: https://coveralls.io/github/Tomazauras/COMP.SE.200-project?branch=main
+[![Coverage Status](https://coveralls.io/repos/github/Tomazauras/COMP.SE.200-project/badge.svg?branch=main)](https://coveralls.io/github/Tomazauras/COMP.SE.200-project?branch=main)
 
 Repository for a uni assignment
 
