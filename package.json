@@ -5,13 +5,15 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "mocha \"test/**/*.js\"",
+    "test": "mocha",
+    "scenarios": "mocha \"./test/scenarios/*.js\"",
     "report": "mocha --reporter mochawesome",
-    "scenarios": "mocha \"./test/scenarios/*.js\""
+    "coverage": "c8 npm run test"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "c8": "^8.0.1",
     "chai": "^4.3.10",
     "coveralls": "^3.1.1",
     "mocha": "^10.2.0",
@@ -22,5 +24,27 @@
   },
   "dependencies": {
     "uuid": "^9.0.1"
+  },
+  "c8": {
+    "include": [
+      "src/add.js",
+      "src/capitalize.js",
+      "src/chunk.js",
+      "src/countBy.js",
+      "src/defaultTo.js",
+      "src/drop.js",
+      "src/filter.js",
+      "src/get.js",
+      "src/isArrayLike.js",
+      "src/words.js"
+    ],
+    "exclude": [
+      "node_modules/**",
+      "test/**"
+    ],
+    "reporter": [
+      "text",
+      "lcov"
+    ]
   }
 }
