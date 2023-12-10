@@ -1,6 +1,6 @@
 # COMP.SE.200-project
 
-[![Coverage Status](https://coveralls.io/repos/github/Tomazauras/COMP.SE.200-project/badge.svg?branch=main)](https://coveralls.io/github/Tomazauras/COMP.SE.200-project?branch=main)
+[![Node.js CI](https://github.com/Tomazauras/COMP.SE.200-project/actions/workflows/node.js.yml/badge.svg)](https://github.com/Tomazauras/COMP.SE.200-project/actions/workflows/node.js.yml) [![Coverage Status](https://coveralls.io/repos/github/Tomazauras/COMP.SE.200-project/badge.svg?branch=main)](https://coveralls.io/github/Tomazauras/COMP.SE.200-project?branch=main)
 
 Repository for a uni assignment
 
