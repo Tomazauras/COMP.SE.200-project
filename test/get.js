@@ -22,6 +22,18 @@ describe("get.js", () => {
       const result = get(car, "brand.model.color", "default");
       expect(result).to.equal("default");
     });
+
+    it("should return object", () => {
+      const book = { title: "12 rules of life", pages: 325, chapters: 12 };
+      const result = get(book, "book", "default");
+      expect(result).to.equal("default");
+    });
+
+    it("should return element of array", () => {
+      const books = ["book1", "book2"];
+      const result = get(books, books.indexOf("book1"));
+      expect(result).to.equal("book1");
+    });
   });
 
   describe("negative tests", () => {
