@@ -25,5 +25,7 @@ To get test coverage follow further steps:
 7. run the command `npm run coverage` which will then run the tests and print out their coverage % to shell. If for some case it is not printed, you can view them in a browser by folowing these steps:
    
    7.1. navigate to created coverage directory -> lcov-report
+   
    7.2. open any of the generated \*.html files using a browser
+   
    7.3. top left corner of page click on `All files` which should be highlighted in blue.
