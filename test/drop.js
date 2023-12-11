@@ -46,13 +46,13 @@ describe("drop.js", () => {
       expect(result).to.deep.equal(["c"]);
     });
 
-    it.skip("should throw a TypeError param array", () => {
+    it("should throw a TypeError param array", () => {
       expect(function () {
         drop(156526, 2);
       }).to.throw(TypeError);
     });
 
-    it.skip("should throw a TypeError param n", () => {
+    it("should throw a TypeError param n", () => {
       expect(function () {
         drop([1, 2, 3], "1");
       }).to.throw(TypeError);

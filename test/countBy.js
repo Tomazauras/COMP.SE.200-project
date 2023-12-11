@@ -36,13 +36,13 @@ describe("countBy.js", () => {
       expect(result).to.deep.equal({ 1: 3 });
     });
 
-    it.skip("should throw a TypeError param collection", () => {
+    it("should throw a TypeError param collection", () => {
       expect(function () {
         countBy(12345, (value) => value.length);
       }).to.throw(TypeError);
     });
 
-    it.skip("should throw a TypeError param function", () => {
+    it("should throw a TypeError param function", () => {
       expect(function () {
         countBy("abcde", 5);
       }).to.throw(TypeError);

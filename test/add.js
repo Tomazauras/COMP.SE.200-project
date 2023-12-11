@@ -30,7 +30,7 @@ describe("add.js", () => {
     });
   });
 
-  describe.skip("negative tests", () => {
+  describe("negative tests", () => {
     it("should throw a TypeError str + number", () => {
       expect(function () {
         add("word", 5);

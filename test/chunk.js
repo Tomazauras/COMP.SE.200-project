@@ -46,13 +46,13 @@ describe("chunk.js", () => {
       expect(result).to.deep.equal([["a", "b"], ["c"]]);
     });
 
-    it.skip("should throw a TypeError param size", () => {
+    it("should throw a TypeError param size", () => {
       expect(function () {
         chunk(["a", "b", "c", "d"], "two");
       }).to.throw(TypeError);
     });
 
-    it.skip("should throw a TypeError param collection", () => {
+    it("should throw a TypeError param collection", () => {
       expect(function () {
         chunk(12345, 2);
       }).to.throw(TypeError);

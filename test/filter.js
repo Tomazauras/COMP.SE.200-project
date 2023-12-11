@@ -60,7 +60,7 @@ describe("filter.js", () => {
       ]);
     });
 
-    it.skip("should throw a TypeError param array", () => {
+    it("should throw a TypeError param array", () => {
       expect(function () {
         filter(1234567, (value) => value);
       }).to.throw(TypeError);

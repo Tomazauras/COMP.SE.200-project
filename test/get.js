@@ -59,13 +59,13 @@ describe("get.js", () => {
       expect(result).to.deep.equal("default");
     });
 
-    it.skip("should throw a TypeError param object", () => {
+    it("should throw a TypeError param object", () => {
       expect(function () {
         get("string", "string.property1");
       }).to.throw(TypeError);
     });
 
-    it.skip("should throw a TypeError param path", () => {
+    it("should throw a TypeError param path", () => {
       expect(function () {
         const person = { details: { name: "Alice", age: 30 } };
         get(person, 12345);

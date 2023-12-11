@@ -31,7 +31,7 @@ describe("capitalize.js", () => {
       expect(result).to.equal("10");
     });
 
-    it.skip("should throw a TypeError for param string", () => {
+    it("should throw a TypeError for param string", () => {
       expect(function () {
         capitalize(5);
       }).to.throw(TypeError);
